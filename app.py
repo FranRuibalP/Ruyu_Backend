@@ -51,7 +51,9 @@ def extract_year_and_season(date_str):
         season = 'Unknown'  # En caso de que el mes no sea válido
 
     return year, season
-
+@app.route('/hello', methods=['GET'])
+def hello():
+    return 'Hello World!'
 #RUTAS DE PREDICCIONES
 @app.route('/predict-sales-model', methods=['POST'])
 def predictSales():
