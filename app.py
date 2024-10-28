@@ -103,8 +103,8 @@ def predictSales():
 def predictGenres():
     
     with open(file_path, "r") as file:
-        data = file.read()
-        #print(data)
+        data = json.load(file)
+        print(data)
     
     return jsonify(data)
 
