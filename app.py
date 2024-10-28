@@ -27,9 +27,13 @@ all_genres = [
     'Sports', 'Strategy'
 ]
 
+file_path = os.path.join("models", "defuzzified_popularity.json")
+
 # Cargar el modelo de machine learning previamente entrenado
 salesModel = joblib.load('models/model_best_stacking.pkl')
 hitsModel = joblib.load('models/modelo_hits.pkl')
+
+
 
 def extract_year_and_season(date_str):
     
@@ -98,8 +102,8 @@ def predictSales():
 @app.route('/predict-genres-model', methods=['GET'])
 def predictGenres():
     
-    with open('models\defuzzified_popularity.json') as file:
-        data = json.load(file)
+    with open(file_path, "r") as file:
+        data = file.read()
         #print(data)
     
     return jsonify(data)
