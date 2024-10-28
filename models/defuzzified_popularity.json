@@ -1,0 +1,46 @@
+[
+    {
+        "genre":"Action",
+        "defuzzified_popularity":2.1466626903
+    },
+    {
+        "genre":"Free to Play",
+        "defuzzified_popularity":2.1070594575
+    },
+    {
+        "genre":"RPG",
+        "defuzzified_popularity":2.0283147291
+    },
+    {
+        "genre":"Adventure",
+        "defuzzified_popularity":2.0109452638
+    },
+    {
+        "genre":"Strategy",
+        "defuzzified_popularity":2.005709978
+    },
+    {
+        "genre":"Simulation",
+        "defuzzified_popularity":2.0013568521
+    },
+    {
+        "genre":"Early Access",
+        "defuzzified_popularity":1.9680965725
+    },
+    {
+        "genre":"Sports",
+        "defuzzified_popularity":1.9653304442
+    },
+    {
+        "genre":"Indie",
+        "defuzzified_popularity":1.9352534139
+    },
+    {
+        "genre":"Racing",
+        "defuzzified_popularity":1.8960729869
+    },
+    {
+        "genre":"Casual",
+        "defuzzified_popularity":1.8800507172
+    }
+]
